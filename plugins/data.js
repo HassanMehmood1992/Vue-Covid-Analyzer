@@ -10,6 +10,21 @@ const mainMenu = [
     icon: "mdi-web",
     title: "Country data",
     to: "/country-data"
+  },
+  {
+    icon: "mdi-file-chart",
+    title: "Daily Reports",
+    to: "/reports"
+  },
+  {
+    icon: "mdi-map-marker",
+    title: "Map View",
+    to: "/map"
+  },
+  {
+    icon: "mdi-graph",
+    title: "Analytics",
+    to: "/analytics"
   }
 ];
 

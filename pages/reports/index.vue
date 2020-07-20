@@ -2,18 +2,10 @@
   <div class="pa-4">
     <v-layout>
       <v-flex md3 class="mr-3">
-        <v-text-field label="Name" placeholder="Search by country name">
-        </v-text-field>
-      </v-flex>
-      <v-flex md3 class="mr-3">
-        <v-text-field label="Code" placeholder="Search by country code">
-        </v-text-field>
-      </v-flex>
-      <v-flex>
-        <v-btn color="gred">
-          <v-icon class="white--text">mdi-magnify</v-icon>
-          <span class="white--text"> Search</span>
-        </v-btn>
+        <v-combobox
+          label="Select Country"
+          :items="['United Arab Emirates', 'Pakistan']"
+        ></v-combobox>
       </v-flex>
     </v-layout>
 
