@@ -1,0 +1,21 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+$primary : #1F305E;
+$secondary: #d68e25;
+$gred: #EA4335;
+$ahoy: #1F305E;
+
+
+.primary-color {
+    color: #1F305E;
+  }
+  
+.secondary-color {
+color: $secondary;
+}
+
+.gred-color {
+  color: $gred;
+}
