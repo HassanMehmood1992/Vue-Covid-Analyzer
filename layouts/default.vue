@@ -95,7 +95,7 @@
         Hassan Mehmood
       </div>
 
-      <v-avatar :size="35" class="">
+      <v-avatar :size="35" class="gred">
         <span>H</span>
       </v-avatar>
     </v-app-bar>

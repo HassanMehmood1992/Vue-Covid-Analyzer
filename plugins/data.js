@@ -2,12 +2,12 @@ import Vue from "vue";
 
 const mainMenu = [
   {
-    icon: "mdi-web",
+    icon: "mdi-view-dashboard",
     title: "Dashboard",
     to: "/dashboard"
   },
   {
-    icon: "mdi-map-marker",
+    icon: "mdi-web",
     title: "Country data",
     to: "/country-data"
   }
