@@ -1,5 +1,14 @@
 <template>
   <v-app>
+       <v-progress-linear
+      :active="topLoader"
+      :indeterminate="topLoader"
+      absolute
+      top
+      color="white"
+      style="z-index: 9;"
+      height="3"
+    ></v-progress-linear>
     <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
@@ -103,7 +112,7 @@ export default {
     clipped: false,
     drawer: true,
     fixed: false,
-    miniVariant: true,
+    miniVariant: false,
     userprofileMenu: false,
     right: true,
     rightDrawer: false,
@@ -118,6 +127,9 @@ export default {
   computed: {
     menuItems() {
       return this.$pluginsData.mainMenu;
+    }
+    ,topLoader() {
+      return this.$store.getters["pageHeader/getTopLoader"];
     }
   },
   created() {
