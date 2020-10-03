@@ -1,5 +1,8 @@
 # covid-19
 
+Contains public api integration to analyze covid in various countries and comeup with analytical and statistical relationship and models.
+
+
 ## Build Setup
 
 ```bash
